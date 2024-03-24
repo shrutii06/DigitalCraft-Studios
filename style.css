@@ -6,7 +6,7 @@
   left: 0;
   width: 100%;
   padding: 1.3rem 10%;
-  background: rgb(23, 23, 26);
+  background: #080f33;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,10 +99,11 @@
 
 .navbar-main a:hover {
   font-size: 1.3rem;
-  color: rgb(209, 54, 80);
+  color: #f5631e;
+  text-decoration:underline;
 }
 
-/* about */
+/* About */
 
 .about {
   width: 80%;
@@ -161,6 +162,7 @@ main {
   text-align: center;
   padding: 1rem;
   position: relative;
+  margin-top: 35px;
 }
 
 .header2:after {
@@ -171,7 +173,7 @@ main {
   transform: translateX(-50%);
   height: 4px;
   width: 100px;
-  background-color: rgb(209, 54, 80);
+  background-color: #f5631e;
   border-radius: 2px;
 }
 
@@ -270,9 +272,8 @@ main {
 
 .note {
   font-size: 1.1rem;
-  color: rgb(150, 150, 150);
+  color: #f5631e;
   font-style: italic;
-  color: red;
 }
 
 .reviews {
@@ -310,12 +311,12 @@ main {
 
 .name-review {
   font-size: 1.5rem;
-  color: rgb(50, 50, 50);
+  color: #f5631e;
   margin-bottom: 0.25rem;
 }
 
 .place-review {
-  color: red;
+  color: #63687c;
   font-style: italic;
 }
 
@@ -364,12 +365,13 @@ main {
 .contact .content h2 {
   font-size: 36px;
   font-weight: 500;
-  color: rgb(209, 54, 80);
+  color: #f5631e;
+  margin-bottom:20px;
 }
 
 .contact .content p {
   font-weight: 300;
-  color: rgb(209, 54, 80);
+  color: #fff;
 }
 
 .container4 {
@@ -383,12 +385,12 @@ main {
 .contactForm {
   width: 40%;
   padding: 40px;
-  background: black;
+  background: #040923;
 }
 
 .contactForm h2 {
   font-size: 30px;
-  color: rgb(209, 54, 80);
+  color: #f5631e;
   font-weight: 500;
 }
 
